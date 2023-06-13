@@ -13,10 +13,20 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Installation WizShop API
+
+1. Clone project
+
+2. ``` yarn install ```
+
+3. Clone field ```.env.template``` and rename to```.env```
+
+4. Change environment variables
+
+5. Run DB
 
 ```bash
-yarn install
+docker-compose up -d
 ```
 
 ## Running the app
@@ -30,14 +40,6 @@ $ yarn run start:dev
 
 # production mode
 $ yarn run start:prod
-```
-
-## WizShop API
-
-1. Run DB
-
-```bash
-docker-compose up -d
 ```
 
 ## License
